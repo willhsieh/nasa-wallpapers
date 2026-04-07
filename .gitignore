@@ -14,5 +14,6 @@ DerivedData/
 build/
 *.app
 
-# Screenshots
-*.png
+# Screenshots (but not asset catalog icons)
+/Image*.png
+/*.png
