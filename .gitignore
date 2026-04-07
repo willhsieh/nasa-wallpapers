@@ -13,6 +13,7 @@ DerivedData/
 # Build artifacts
 build/
 *.app
+*.zip
 
 # Screenshots (but not asset catalog icons)
 /Image*.png
