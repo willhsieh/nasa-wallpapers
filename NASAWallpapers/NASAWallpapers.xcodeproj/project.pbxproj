@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011098BA73A4EE1AC7B0FFA3 /* ImageSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95416E11DF916005B300F436 /* ImageSearchViewModel.swift */; };
+		08C2CB55FA2BD54123A3DE48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F041762D28F1B0C94BCD20 /* Assets.xcassets */; };
+		1D567F779004C4F448CB864B /* NASAImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED803523B9F177B391F6FD3 /* NASAImage.swift */; };
+		23270D9EB00B069159B72B56 /* ESAImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BF12A355092789A79B0086 /* ESAImageService.swift */; };
+		9FB0B0FB1FAF4C24DB9A27CD /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8556B05661FD978C55105B4 /* ImageGridView.swift */; };
+		A0D824015EFA89BD5A193EED /* SearchSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767FA1E1AE1370439B7EC944 /* SearchSidebar.swift */; };
+		A127F76FC752DF3AD7785AF3 /* NASAWallpapersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA0D8322C0B6B77BB8467A /* NASAWallpapersApp.swift */; };
+		C77EF7682F385E0DC93DB38E /* NASAAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74BAA27EF84445AE08536B5 /* NASAAPIService.swift */; };
+		C88F50129C07D91FBF3DB73C /* ImageDetailPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579C429018592C5FABDBD9B3 /* ImageDetailPanel.swift */; };
+		CC5D6E9E5B32165E0C35EE30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D240C017FC9943225C568E2 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D4F7E24228B3A9C883E7A0D /* NASAWallpapers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NASAWallpapers.entitlements; sourceTree = "<group>"; };
+		56CCCEBE3CE8500B93A85921 /* NASAWallpapers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASAWallpapers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		579C429018592C5FABDBD9B3 /* ImageDetailPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailPanel.swift; sourceTree = "<group>"; };
+		767FA1E1AE1370439B7EC944 /* SearchSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSidebar.swift; sourceTree = "<group>"; };
+		7D240C017FC9943225C568E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82203AB983AEE197E04403DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		95416E11DF916005B300F436 /* ImageSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSearchViewModel.swift; sourceTree = "<group>"; };
+		A3DA0D8322C0B6B77BB8467A /* NASAWallpapersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAWallpapersApp.swift; sourceTree = "<group>"; };
+		A5F041762D28F1B0C94BCD20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A74BAA27EF84445AE08536B5 /* NASAAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAAPIService.swift; sourceTree = "<group>"; };
+		BED803523B9F177B391F6FD3 /* NASAImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAImage.swift; sourceTree = "<group>"; };
+		C8556B05661FD978C55105B4 /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
+		F6BF12A355092789A79B0086 /* ESAImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESAImageService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		641AEE3D3B09D7560C214D68 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A5F041762D28F1B0C94BCD20 /* Assets.xcassets */,
+				82203AB983AEE197E04403DF /* Info.plist */,
+				1D4F7E24228B3A9C883E7A0D /* NASAWallpapers.entitlements */,
+				682CFE04AD5136785666CC72 /* App */,
+				7E1061E270AF6980A1CBC18E /* Models */,
+				FD7AA58F0474F7360603B96C /* Services */,
+				6A1097835D4E8A093A6BAB5F /* ViewModels */,
+				F3B484D9C4A988A371AA10F0 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		682CFE04AD5136785666CC72 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A3DA0D8322C0B6B77BB8467A /* NASAWallpapersApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6A1097835D4E8A093A6BAB5F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				95416E11DF916005B300F436 /* ImageSearchViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6A5D11F7CEC8CA2BC889CAB6 = {
+			isa = PBXGroup;
+			children = (
+				641AEE3D3B09D7560C214D68 /* Sources */,
+				F8C929370349D3C12F526E86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E1061E270AF6980A1CBC18E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BED803523B9F177B391F6FD3 /* NASAImage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3B484D9C4A988A371AA10F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7D240C017FC9943225C568E2 /* ContentView.swift */,
+				579C429018592C5FABDBD9B3 /* ImageDetailPanel.swift */,
+				C8556B05661FD978C55105B4 /* ImageGridView.swift */,
+				767FA1E1AE1370439B7EC944 /* SearchSidebar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8C929370349D3C12F526E86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56CCCEBE3CE8500B93A85921 /* NASAWallpapers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD7AA58F0474F7360603B96C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F6BF12A355092789A79B0086 /* ESAImageService.swift */,
+				A74BAA27EF84445AE08536B5 /* NASAAPIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A842AAE0F94A71EA74591CB7 /* NASAWallpapers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F412A1B99B2FC15784317BC /* Build configuration list for PBXNativeTarget "NASAWallpapers" */;
+			buildPhases = (
+				5E9579A5E4B9E15731B84443 /* Sources */,
+				79DF32B682E0A4587BDBE2E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NASAWallpapers;
+			packageProductDependencies = (
+			);
+			productName = NASAWallpapers;
+			productReference = 56CCCEBE3CE8500B93A85921 /* NASAWallpapers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD6F35C4F4A84F8E090E92EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 84448F675C71526C7E3A556F /* Build configuration list for PBXProject "NASAWallpapers" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6A5D11F7CEC8CA2BC889CAB6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A842AAE0F94A71EA74591CB7 /* NASAWallpapers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79DF32B682E0A4587BDBE2E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C2CB55FA2BD54123A3DE48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E9579A5E4B9E15731B84443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5D6E9E5B32165E0C35EE30 /* ContentView.swift in Sources */,
+				23270D9EB00B069159B72B56 /* ESAImageService.swift in Sources */,
+				C88F50129C07D91FBF3DB73C /* ImageDetailPanel.swift in Sources */,
+				9FB0B0FB1FAF4C24DB9A27CD /* ImageGridView.swift in Sources */,
+				011098BA73A4EE1AC7B0FFA3 /* ImageSearchViewModel.swift in Sources */,
+				C77EF7682F385E0DC93DB38E /* NASAAPIService.swift in Sources */,
+				1D567F779004C4F448CB864B /* NASAImage.swift in Sources */,
+				A127F76FC752DF3AD7785AF3 /* NASAWallpapersApp.swift in Sources */,
+				A0D824015EFA89BD5A193EED /* SearchSidebar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		230311936ED1A81FD6F9159B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		4CFFE3E4030150F7A9EA8AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/NASAWallpapers.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.willhsieh.nasawallpapers;
+				PRODUCT_NAME = "NASA Wallpapers";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7AB9A028B6AAF8D92CF5521B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/NASAWallpapers.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.willhsieh.nasawallpapers;
+				PRODUCT_NAME = "NASA Wallpapers";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9499FCDF06D2D6ACB41C64F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F412A1B99B2FC15784317BC /* Build configuration list for PBXNativeTarget "NASAWallpapers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB9A028B6AAF8D92CF5521B /* Debug */,
+				4CFFE3E4030150F7A9EA8AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		84448F675C71526C7E3A556F /* Build configuration list for PBXProject "NASAWallpapers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230311936ED1A81FD6F9159B /* Debug */,
+				9499FCDF06D2D6ACB41C64F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD6F35C4F4A84F8E090E92EB /* Project object */;
+}
